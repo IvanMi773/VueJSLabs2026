@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220" />
+      <stop offset="0.55" stop-color="#1d4ed8" />
+      <stop offset="1" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a" />
+      <stop offset="1" stop-color="#111c33" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <circle cx="1060" cy="80" r="260" fill="#93c5fd" opacity="0.22" />
+  <circle cx="120" cy="650" r="280" fill="#1e3a8a" opacity="0.5" />
+  <g fill="#bfdbfe" font-family="system-ui, sans-serif">
+    <text x="86" y="140" font-size="24" font-weight="700" letter-spacing="8" opacity="0.85">
+      ONLINE COURSE
+    </text>
+    <text x="84" y="275" font-size="116" font-weight="700" fill="#ffffff" letter-spacing="-4">
+      Vue.js
+    </text>
+    <text x="88" y="342" font-size="38" font-weight="500" opacity="0.92">
+      від SFC до продакшену
+    </text>
+  </g>
+  <g transform="translate(88 420)">
+    <rect width="316" height="62" rx="31" fill="#ffffff" opacity="0.14" stroke="#bfdbfe" stroke-opacity="0.5" />
+    <text x="30" y="40" fill="#ffffff" font-family="system-ui, sans-serif" font-size="24" font-weight="600">
+      Старт 1 грудня · 20 занять
+    </text>
+  </g>
+  <g transform="translate(660 120) rotate(-5)">
+    <rect width="450" height="430" rx="26" fill="url(#window)" stroke="#60a5fa" stroke-opacity="0.65" stroke-width="2" />
+    <rect width="450" height="54" rx="26" fill="#1e293b" />
+    <rect y="30" width="450" height="24" fill="#1e293b" />
+    <circle cx="30" cy="27" r="7" fill="#f87171" />
+    <circle cx="54" cy="27" r="7" fill="#fbbf24" />
+    <circle cx="78" cy="27" r="7" fill="#34d399" />
+    <g font-family="ui-monospace, monospace" font-size="17">
+      <text x="36" y="112" fill="#93c5fd">&lt;template&gt;</text>
+      <text x="58" y="144" fill="#e2e8f0">&lt;NewsCard</text>
+      <text x="80" y="176" fill="#7dd3fc">:article="article"</text>
+      <text x="80" y="208" fill="#7dd3fc">featured</text>
+      <text x="58" y="240" fill="#e2e8f0">/&gt;</text>
+      <text x="36" y="272" fill="#93c5fd">&lt;/template&gt;</text>
+      <text x="36" y="320" fill="#a7f3d0">&lt;style module&gt;</text>
+      <text x="58" y="352" fill="#fde68a">.card { ... }</text>
+      <text x="36" y="384" fill="#a7f3d0">&lt;/style&gt;</text>
+    </g>
+    <circle cx="370" cy="360" r="52" fill="#38bdf8" />
+    <path d="M356 334 L392 360 L356 386 Z" fill="#04233f" />
+  </g>
+</svg>
